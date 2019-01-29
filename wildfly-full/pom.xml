@@ -37,10 +37,10 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-scm-plugin</artifactId>
                 <configuration>
-                    <connectionType>scm:git:git@github.com:jamezp/wildfly.git</connectionType>
-                    <developerConnectionUrl>scm:git:git@github.com:jamezp/wildfly.git</developerConnectionUrl>
-                    <connectionUrl>https://github.com/jamezp/wildfly</connectionUrl>
-                    <goals>install -DskipTests -Dversion.org.wildfly.core=7.0.0.Alpha3-SNAPSHOT</goals>
+                    <connectionType>scm:git:https://github.com/wildfly/wildfly.git</connectionType>
+                    <developerConnectionUrl>scm:git:https://github.com/wildfly/wildfly.git</developerConnectionUrl>
+                    <connectionUrl>https://github.com/wildfly/wildfly</connectionUrl>
+                    <goals>install -DskipTests -Dversion.org.wildfly.core=8.0.0.Beta4-SNAPSHOT</goals>
                     <scmVersion>master</scmVersion>
                     <scmVersionType>branch</scmVersionType>
                 </configuration>

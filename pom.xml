@@ -37,7 +37,7 @@
     <properties>
         <version.maven.scm.plugin>1.11.1</version.maven.scm.plugin>
 
-        <version.org.wildfly.core>7.0.3.Alpha3-SNAPSHOT</version.org.wildfly.core>
+        <version.org.wildfly.core>8.0.0.Beta4-SNAPSHOT</version.org.wildfly.core>
 
         <checkoutDirectory>${project.build.directory}/checkout</checkoutDirectory>
     </properties>
